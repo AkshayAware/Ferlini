@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+   <parameter name = "message" value="Hi, good Evening"/>
+       <parameter name = "nameAndsurname" value="Akshay Aware"/>
+        <parameter name = "company" value="ferlini"/>
+         <parameter name = "emailAddress" value="akshayaware459@gmail.com"/>
+          <parameter name = "countryCode" value="91"/>
+          <parameter name = "areaCode" value="001"/>
+          <parameter name = "prefix" value="789"/>
+           <parameter name = "suffixLine" value="456"/>
+           
+    <classes>
+      <class name="Test.FerliniTestng"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="suffixLine" value="456"/>
+    <parameter name="emailAddress" value="akshayaware459@gmail.com"/>
+    <parameter name="areaCode" value="001"/>
+    <parameter name="countryCode" value="91"/>
+    <parameter name="prefix" value="789"/>
+    <parameter name="company" value="ferlini"/>
+    <parameter name="message" value="Hi, good Evening"/>
+    <parameter name="nameAndsurname" value="Akshay Aware"/>
+    <classes>
+      <class name="Test.FerliniTestng">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="ferliniHomePageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.FerliniTestng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

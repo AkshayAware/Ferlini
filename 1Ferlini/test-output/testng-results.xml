@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-04T07:34:14 IST" name="Suite" finished-at="2023-05-04T07:34:43 IST" duration-ms="28675">
+    <groups>
+    </groups>
+    <test started-at="2023-05-04T07:34:14 IST" name="Test" finished-at="2023-05-04T07:34:43 IST" duration-ms="28675">
+      <class name="Test.FerliniTestng">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FerliniTestng@5afa3c9]" started-at="2023-05-04T07:34:14 IST" name="setup" finished-at="2023-05-04T07:34:22 IST" duration-ms="8350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ferliniHomePageTest()[pri:0, instance:Test.FerliniTestng@5afa3c9]" started-at="2023-05-04T07:34:22 IST" name="ferliniHomePageTest" finished-at="2023-05-04T07:34:30 IST" duration-ms="7284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ferliniHomePageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.FerliniTestng@5afa3c9]" started-at="2023-05-04T07:34:30 IST" name="closeBrowser" finished-at="2023-05-04T07:34:30 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FerliniTestng@5afa3c9]" started-at="2023-05-04T07:34:30 IST" name="setup" finished-at="2023-05-04T07:34:37 IST" duration-ms="6486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCaseTwo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.FerliniTestng@5afa3c9]" started-at="2023-05-04T07:34:37 IST" name="testCaseTwo" finished-at="2023-05-04T07:34:42 IST" duration-ms="5851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hi, good Evening]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akshay Aware]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ferlini]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[akshayaware459@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.FerliniTestng@5afa3c9]" started-at="2023-05-04T07:34:42 IST" name="closeBrowser" finished-at="2023-05-04T07:34:43 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.FerliniTestng -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
